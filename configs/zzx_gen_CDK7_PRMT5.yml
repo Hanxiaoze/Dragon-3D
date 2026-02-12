@@ -1,0 +1,33 @@
+[lib]
+Cores: ./frag_lib/Cores.sdf
+Frags: ./frag_lib/Frags.sdf
+
+[model]
+GPPM: ./trained_pt_weights/gppm_model.pt
+GFPM: ./trained_pt_weights/gfpm_model.pt
+TAPM: ./trained_pt_weights/tapm_model.pt
+Encode_pro: ./trained_pt_weights/E_p_model.pt
+Decode_lig: ./trained_pt_weights/D_l_model.pt
+Encode_lig: ./trained_pt_weights/E_l_model.pt
+Fus_model: ./trained_pt_weights/Fusion_model.pt
+
+[sample]
+output_dir: ./zzx_gen_mol/additional_test/CDK7_PRMT5_sample
+receptor_A: ./pro_pdb/CDK7_pock.pdb
+receptor_B: ./pro_pdb/PRMT5_pock.pdb
+reference_core:        
+x_A: 115.162
+y_A: 94.668
+z_A: 80.197
+x_B: -31.139
+y_B: -39.610
+z_B: -5.614
+key_res:
+iteration: 7
+output_mols_num: 100000
+bucket_size: 5
+sim_threshold: 0.5
+seed: 42
+num_cpu: 16
+batch_size: 64
+device_type: cuda

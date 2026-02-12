@@ -1,0 +1,33 @@
+[lib]
+Cores: ./frag_lib/Cores.sdf
+Frags: ./frag_lib/Frags.sdf
+
+[model]
+GPPM: ./trained_pt_weights/gppm_model.pt
+GFPM: ./trained_pt_weights/gfpm_model.pt
+TAPM: ./trained_pt_weights/tapm_model.pt
+Encode_pro: ./trained_pt_weights/E_p_model.pt
+Decode_lig: ./trained_pt_weights/D_l_model.pt
+Encode_lig: ./trained_pt_weights/E_l_model.pt
+Fus_model: ./trained_pt_weights/Fusion_model.pt
+
+[sample]
+output_dir: ./zzx_gen_mol/GSK3_JNK3_sample_3
+receptor_A: ./pro_pdb/GSK3_pock.pdb
+receptor_B: ./pro_pdb/JNK3_pock.pdb
+reference_core:        
+x_A: -1.574
+y_A: 21.736
+z_A: 27.134
+x_B: 3.324
+y_B: 101.805
+z_B: 139.606
+key_res:
+iteration: 7
+output_mols_num: 100000
+bucket_size: 5
+sim_threshold: 0.5
+seed: 42
+num_cpu: 16
+batch_size: 64
+device_type: cuda
