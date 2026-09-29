@@ -79,15 +79,18 @@ python zzx_Generate.py --config ./configs/your.yml
 
 
 ## Section 4: Training Dataset
-The training data is located in the `training_dataset` directory of this project repository.
+The training data is located in the `datasets_and_splits` directory of this project repository.
+
+
+## Random Seeds
+All the random seeds used in the `zzx_pocED_2_ligED_train_biNet_0.py`, `zzx_GPPM_train_accelerate.py`, `zzx_GFPM.py` and `zzx_GAPM_train_AMP.py` is `42`
+
 
 
 ## Section 5: License
 
 MIT
 
-## Random Seeds
-All the random seeds used in the `zzx_pocED_2_ligED_train_biNet_0.py`, `zzx_GPPM_train_accelerate.py`, `zzx_GFPM.py` and `zzx_GAPM_train_AMP.py` is `42`
 
 ## Acknowledgement
 
