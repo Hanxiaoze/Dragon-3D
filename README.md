@@ -86,6 +86,9 @@ The training data is located in the `training_dataset` directory of this project
 
 MIT
 
+## Random Seeds
+All the random seeds used in the `zzx_pocED_2_ligED_train_biNet_0.py`, `zzx_GPPM_train_accelerate.py`, `zzx_GFPM.py` and `zzx_GAPM_train_AMP.py` is `42`
+
 ## Acknowledgement
 
 This project is partially inspired by and built upon the ED2Mol project:
