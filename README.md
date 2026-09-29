@@ -5,6 +5,41 @@
 </div>
 
 ## Section 1: Setup Environment
+software/environment versions:
+```
+pytorch	2.4.0
+pytorch-cuda	11.8
+torchaudio	2.4.0
+torchvision	0.19.0
+torchtriton	3.0.0
+torch-geometric	2.3.0
+torch-cluster	1.6.3
+torch-scatter	2.1.2
+torch-sparse	0.6.18
+torch-spline-conv	1.2.2
+scikit-learn	1.7.2
+scikit-image	0.25.2
+tensorboard	2.20.0
+absl-py	2.4.0
+rdkit	2025.09.5
+librdkit	2025.09.5
+openbabel	3.1.1	
+biopython	1.86
+cctbx-base	2026.1
+plip	3.0.0
+mrcfile	1.5.4
+munkres	1.1.4
+networkx	3.4.2
+numpy	2.2.6
+scipy	1.15.2
+pandas	2.3.3
+matplotlib-base	3.10.8
+sympy	1.14.0
+pyvista	0.47.0
+vtk	9.6.0
+pillow	12.1.1
+```
+
 You can follow the instructions to setup the conda environment
 
 ```shell
