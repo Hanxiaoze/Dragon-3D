@@ -85,6 +85,10 @@ The training data is located in the `datasets_and_splits` directory of this proj
 All trained model checkpoints are provided in the `trained_pt_weights` directory, including the following .pt files: `D_l_model.pt`, `E_l_model.pt`, `E_p_model.pt`, `Fusion_model.pt`, `gppm_model.pt`, `gfpm_model.pt`, and `gapm_model.pt`.
 
 
+## Generation Parameters
+The generation parameters used to reproduce the molecular generation results reported in the paper are provided in the `configs` directory, including the following `.yml` files: `zzx_gen_BRD4_FGFR3.yml`, `zzx_gen_CDK12_PRMT5.yml`, `zzx_gen_CDK7_PRMT5.yml`, `zzx_gen_GSK3_JNK3.yml`, `zzx_gen_PARP1_BRD4.yml`, `zzx_gen_PARP1_PARP1.yml`, and `zzx_gen_RORrt_DHODH.yml`.
+
+
 ## Random Seeds
 All the random seeds used in the `zzx_pocED_2_ligED_train_biNet_0.py`, `zzx_GPPM_train_accelerate.py`, `zzx_GFPM.py` and `zzx_GAPM_train_AMP.py` is `42`.
 
