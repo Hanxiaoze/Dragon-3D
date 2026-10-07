@@ -87,7 +87,7 @@ All the random seeds used in the `zzx_pocED_2_ligED_train_biNet_0.py`, `zzx_GPPM
 
 
 ## Protein Pocket Definition
-The protein binding pocket was defined as a cubic box with a side length of 24 Å centered at the geometric center of the ligand, mathematically defined as (c<sub>x</sub> - 12 < x < c<sub>x</sub> + 12), (c<sub>y</sub> - 12 < y < c<sub>y</sub> + 12), and (c<sub>z</sub> - 12 < z < c<sub>z</sub> + 12).
+The protein binding pocket was defined as a cubic box with a side length of 24 Å centered at the geometric center (c<sub>x</sub>, c<sub>y</sub>, c<sub>z</sub>) of the ligand, mathematically defined as (c<sub>x</sub> - 12 < x < c<sub>x</sub> + 12), (c<sub>y</sub> - 12 < y < c<sub>y</sub> + 12), and (c<sub>z</sub> - 12 < z < c<sub>z</sub> + 12).
 
 
 
