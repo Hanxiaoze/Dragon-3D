@@ -86,6 +86,10 @@ The training data is located in the `datasets_and_splits` directory of this proj
 All the random seeds used in the `zzx_pocED_2_ligED_train_biNet_0.py`, `zzx_GPPM_train_accelerate.py`, `zzx_GFPM.py` and `zzx_GAPM_train_AMP.py` is `42`.
 
 
+## Protein Pocket Definition
+The protein binding pocket was defined as a cubic box with a side length of 24 Å centered at the geometric center of the ligand, mathematically defined as (c<sub>x</sub> - 12 < x < c<sub>x</sub> + 12), (c<sub>y</sub> - 12 < y < c<sub>y</sub> + 12), and (c<sub>z</sub> - 12 < z < c<sub>z</sub> + 12).
+
+
 
 ## Section 5: License
 
