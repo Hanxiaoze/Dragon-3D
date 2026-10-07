@@ -81,6 +81,9 @@ python zzx_Generate.py --config ./configs/your.yml
 ## Section 4: Training Dataset
 The training data is located in the `datasets_and_splits` directory of this project repository.
 
+## Trained Model Checkpoints
+All trained model checkpoints are provided in the trained_pt_weights directory, including the following .pt files: D_l_model.pt, E_l_model.pt, E_p_model.pt, Fusion_model.pt, gapm_model.pt, gfpm_model.pt, and gppm_model.pt.
+
 
 ## Random Seeds
 All the random seeds used in the `zzx_pocED_2_ligED_train_biNet_0.py`, `zzx_GPPM_train_accelerate.py`, `zzx_GFPM.py` and `zzx_GAPM_train_AMP.py` is `42`.
