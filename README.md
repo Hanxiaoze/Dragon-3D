@@ -81,12 +81,17 @@ python zzx_Generate.py --config ./configs/your.yml
 ## Section 4: Training Dataset
 The training data is located in the `datasets_and_splits` directory of this project repository.
 
+
 ## Trained Model Checkpoints
 All trained model checkpoints are provided in the `trained_pt_weights` directory, including the following .pt files: `D_l_model.pt`, `E_l_model.pt`, `E_p_model.pt`, `Fusion_model.pt`, `gppm_model.pt`, `gfpm_model.pt`, and `gapm_model.pt`.
 
 
 ## Generation Parameters
 The generation parameters used to reproduce the molecular generation results reported in the paper are provided in the `configs` directory, including the following `.yml` files: `zzx_gen_BRD4_FGFR3.yml`, `zzx_gen_CDK12_PRMT5.yml`, `zzx_gen_CDK7_PRMT5.yml`, `zzx_gen_GSK3_JNK3.yml`, `zzx_gen_PARP1_BRD4.yml`, `zzx_gen_PARP1_PARP1.yml`, and `zzx_gen_RORrt_DHODH.yml`.
+
+
+## Generated Molecular Sets
+The generation molecular sets used to reproduce the molecular generation results reported in the paper are provided in the `zzx_gen_mol` directory, including the following `.sdf` files: `zzx_gen_mol/GSK3_JNK3_sample_for_repo/output.sdf`, `zzx_gen_mol/RORrt_DHODH_sample_for_repo/output.sdf`, `zzx_gen_mol/additional_test/BRD4_FGFR3_sample/output.sdf`, `zzx_gen_mol/additional_test/CDK12_PRMT5_sample/output.sdf`, `zzx_gen_mol/additional_test/CDK7_PRMT5_sample/output.sdf`, and `zzx_gen_mol/additional_test/PARP1_BRD4_sample/output.sdf`.
 
 
 ## Random Seeds
