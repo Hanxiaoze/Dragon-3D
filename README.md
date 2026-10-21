@@ -79,7 +79,8 @@ python zzx_Generate.py --config ./configs/your.yml
 
 
 ## Section 4: Training Dataset
-The dual-target ligand ED generator training dataset is located in the https://drive.google.com/file/d/16EPrFD_mcHywTPyOR7bSu90n6Zgosw3f/view?usp=drive_link.  The ED guided mol growth training dataset is located in the https://drive.google.com/file/d/1_qEHWAe8WhDB2BCAv6VA3iPdEmXJ0lyN/view?usp=drive_link.
+The dual-target ligand ED generator training dataset is located in the https://drive.google.com/file/d/16EPrFD_mcHywTPyOR7bSu90n6Zgosw3f/view?usp=drive_link.  
+The ED guided mol growth training dataset is located in the https://drive.google.com/file/d/1_qEHWAe8WhDB2BCAv6VA3iPdEmXJ0lyN/view?usp=drive_link.
 
 
 ## Trained Model Checkpoints
